@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+import Main from './Components/MainComponent';
 import './App.css';
-import { Navbar, NavbarBrand } from 'reactstrap';
+
 
 
 function App() {
   return (
     <div className="App">
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Anu</NavbarBrand>
-          </div>
-        </Navbar>
+        <Main />
+       
       </div>
   );
 }

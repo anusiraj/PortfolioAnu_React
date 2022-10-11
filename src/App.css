@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:rgb(103, 102, 100);
 }
 
 .App-logo {
@@ -23,16 +24,60 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #222121;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  color:rgb(103, 102, 100);
+
+}
+.jumbotron {
+  padding:0px 30px 130px 30px;
+  margin:0px auto;
+  background: #ffffff ;
+  color:rgb(103, 102, 100);
+}
+.herocontent{
+  padding:150px 0px 150px 0px;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #222121;
+}
+.heroimage{
+  position: relative;
+  height: 128%;
+  width: 130%;
+  border-radius: 20px;
+  margin-right: auto;
+}
+.button{
+  background-color: #222121;
+}
+.aboutcontent{
+  padding: 50px 0px 50px 0px;
+  color:rgb(103, 102, 100);
+  /* background-color: #a09e9e; */
+}
+.skillimage{
+  border-radius:50%;
+  width:40px
 }
