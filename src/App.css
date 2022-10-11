@@ -1,3 +1,8 @@
+
+
+
+
+
 .App {
   text-align: center;
   color:rgb(103, 102, 100);
@@ -27,6 +32,17 @@
 .row-header{
   margin:0px auto;
   padding:0px auto;
+}
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.project > div{
+ flex-basis: 30%;
+ text-align: center;
+ margin-right: 30px;
 }
 
 .row-content {
@@ -71,6 +87,7 @@ address{
 }
 .button{
   background-color: #222121;
+  padding: 3px 10px 3px 10px;
 }
 .aboutcontent{
   padding: 50px 0px 50px 0px;

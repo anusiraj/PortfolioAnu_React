@@ -27,7 +27,7 @@ const Header = () => {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/menu">
+                                <NavLink className="nav-link" to="/projectid">
                                     <span className = "fa fa-tasks fa-lg"></span> Projects
                                 </NavLink>
                             </NavItem>
@@ -54,7 +54,7 @@ const Header = () => {
                     <div className='herocontent'>
                     <h1>Hey, I am Anu Siraj</h1>
                        <p>I am a passionate Software Developer.<br />I love exploring and creating new things that live on Internet.</p>
-                        <Button className = "button" type="submit">
+                        <Button className = "button" href = "#project" type="submit">
                             View my projects
                         </Button>
                     </div>

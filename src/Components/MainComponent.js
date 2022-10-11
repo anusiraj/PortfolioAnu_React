@@ -3,7 +3,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import About from './AboutComponent';
 import Skill from './SkillComponent';
-
+import Project from './ProjectComponent';
 
 const Main = () => {
     return(
@@ -11,6 +11,7 @@ const Main = () => {
             <Header />
             <About />
             <Skill />
+            <Project />
             <Footer />
             
         </div>
