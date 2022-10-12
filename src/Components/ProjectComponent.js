@@ -7,7 +7,7 @@ const Project = () => {
             <h1>Projects</h1>
             <p>Here are some of my latest and previous projects.<br />
                 Click on the images to make them bigger</p>
-            <div className='row'>
+            <div className='row' style={{marginBottom: 30}}>
                 <div className='project'>
                 <Card>
                         <CardImg width="100%" src= 'assets/cakelicious.jpeg' alt='html' />
