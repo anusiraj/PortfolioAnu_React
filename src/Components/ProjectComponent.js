@@ -3,11 +3,10 @@ import { Card, CardBody, CardImg, CardHeader, Button} from 'reactstrap';
 
 const Project = () => {
     return(
-        <div className='container' style={{marginBottom: 100}}>
+        <div className='container' style={{marginBottom: 70}}>
             <section id="projects">
                 <h1 style={{marginBottom: 30}}>Projects</h1></section>
-            <p>Here are some of my latest and previous projects.<br />
-                Click on the images to make them bigger</p>
+            <p>Here are some of my latest and previous projects.</p>
             <div className='row' style={{marginBottom: 30, marginTop:50}}>
                 <div className='col-sm'>
                         <Card>
@@ -27,15 +26,15 @@ const Project = () => {
                             </div>
                             </CardHeader>
                             <CardBody>
-                                <p>An application made of Reactjs,Redux with the help of local json-server. 
+                                <p>Cakelicious is an application developed using Reactjs,Redux with the help of local json-server. 
                                 Cakelicious is about ordering and delivering cakes(e-commerce). 
                                 This is my ongoing project. Since I am using local json-server as REST API,
-                                the contents will not be available in live link. It is exactly the same like screenshot.</p>
+                                the contents will not be available in the live link. It is exactly the same like as the screenshot.</p>
                             </CardBody>
                         </Card>
                     </div>
                     <div className='col-sm'>
-                        <Card style = {{paddingBottom: '50px'}}>
+                        <Card>
                             <CardImg width="100%" src= 'assets/scoreboard.png' alt='html' />
                             <CardHeader>
                             <div className='row'>
@@ -52,15 +51,15 @@ const Project = () => {
                                 </div>
                             </CardHeader>
                             <CardBody>
-                                <p>Score Board is made of Reactjs. It is like a score board for games. 
-                                    It sorts players according to their score. We can select players 
-                                    name and give latest score and then the scoreboard displays according to the 
-                                    highest score first with player name.</p>
+                                <p>Score Board is single page website developed using Reactjs. It is like a Score Board for games. 
+                                    It sorts player's according to their score. We can select player's 
+                                    name from the dropdown below and can give the latest score. Then the scoreboard displays player's 
+                                    name and their score in the sorting order</p>
                             </CardBody>
                         </Card>
                     </div>
                     <div className='col-sm'>
-                        <Card style = {{paddingBottom: '50px'}}>
+                        <Card >
                             
                             <CardImg width="100%" src= 'assets/duuni2021.png' alt='html' />
                             <CardHeader>
@@ -73,8 +72,9 @@ const Project = () => {
 
                             </CardHeader>
                             <CardBody>
-                                <p>Duuni 2021 is a reservation website made of Wix. 
-                                    I developed this for a Client. People can apply and reserve a seat for the programe 'Duuni2021'. 
+                                <p>Duuni 2021 is a reservation website developed using Wix. 
+                                    I have developed Duuni2021 website for a client when I had been in work trial. 
+                                    People can register and reserve their space for the programe 'Duuni2021'. 
                                     Since they have deleted the website after the programe, live link is not available.</p>
                             </CardBody>
                         </Card>

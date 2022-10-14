@@ -29,7 +29,7 @@ const ContactForm = () => {
       });
   }
   return (
-    <div className='container' style={{marginBottom: 100}}>
+    <div className='container' style={{marginBottom: 70}}>
       <section id="contact">
 
       <h1 style={{marginBottom: 30}}>Contact Me</h1></section>
