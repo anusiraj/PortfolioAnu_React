@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import { Navbar, NavbarBrand, Jumbotron, Button, Nav, Collapse, NavItem, NavbarToggler, NavLink} from "reactstrap";
+import { Navbar, Nav, Collapse, NavItem, NavbarToggler} from "reactstrap";
 import { Link } from 'react-scroll';
 
 const Header = () => {
@@ -12,8 +12,8 @@ const Header = () => {
     <Navbar dark expand="md">
     
         <div className= "container">
-            {/* <div className='itemnav'> */}
-            <NavbarToggler onClick  = {() => setToggle(!toggle)} />
+            <NavbarToggler onClick  = {() => setToggle(!toggle)} 
+            style={{position:'relative',left: '85%'}} />
                 <Collapse isOpen={toggle} navbar>
                         <Nav navbar>
                             
@@ -52,9 +52,7 @@ const Header = () => {
                                 <a style = {{marginRight: '20px'}} className="btn btn-social-icon btn-github" href="https://github.com/anusiraj?tab=repositories"><i className="fa fa-github"></i></a>
                             </NavItem>
                         </Nav>
-                </Collapse>
-            {/* </div> */}
-            
+                </Collapse>            
         </div>
     </Navbar>                   
     </>
