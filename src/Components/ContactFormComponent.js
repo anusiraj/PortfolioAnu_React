@@ -24,7 +24,9 @@ const ContactForm = () => {
   }
   return (
     <div className='container'>
-      <h1>Contact Me</h1>
+      <section id="contact">
+
+      <h1>Contact Me</h1></section>
       <div className='row row-content'>
         <div className="col-12 col-sm-6 offset-sm-1">
               <form ref={form} onSubmit={sendEmail}>
@@ -56,41 +58,37 @@ const ContactForm = () => {
         <div className="col-12 col-sm-4 offset-sm-1">
         <div className='row'> 
                         <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-                        <i className = "fa fa-map-marker" style = {{color: 'black', fontSize: '30px'}}></i>
+                        <i className = "fa fa-map-marker"  style = {{marginRight: '20px',color: 'black', fontSize: '20px'}}></i>
                         </a>Helsinki, Finland
                     </div>
                    
                     <div className='row'> 
-                        <a href="mailto:anu.jencir@gmail.com" >
-                        <i className = "fa fa-envelope" style = {{color: 'black', fontSize: '22px'}}></i>
+                        <a href="mailto:anu.jencir@gmail.com"  >
+                        <i className = "fa fa-envelope" style = {{marginRight: '20px',color: 'black'}}></i>
                         anu.jencir@gmail.com</a>
                     </div>
 
                     <div className='row'> 
-                        <a href="tel:+358 413651884" >
-                        <i className = "fa fa-phone" style = {{color: 'black', fontSize: '22px'}}></i>
+                    <a href="tel:+358 413651884" style = {{marginRight: '20px'}} >
+                        <i className = "fa fa-phone" style = {{marginRight: '20px',color: 'black'}}></i>
                         +358 413651884</a>
                     </div>
 
                     <div className='row'> 
                         <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" >
-                        <i className = "fa fa-linkedin" style = {{color: 'black', fontSize: '22px'}}></i>
+                        <i className = "fa fa-linkedin" style = {{marginRight: '20px', color: 'black'}}></i>
                         Linkedin</a>
                     </div>
 
-                    <div className='row'> 
-                        <a href="https://github.com/anusiraj?tab=repositories" class="w3-bar-item" >
-                        <i className = "fa fa-github" style = {{color: 'black', fontSize: '22px'}}></i>
+                    <div className='row' > 
+                        <a href="https://github.com/anusiraj?tab=repositories" >
+                        <i className = "fa fa-github" style = {{marginRight: '20px',color: 'black'}}></i>
                         Github</a>
                     </div>
       
               
         </div>
       </div>
-      
-           
-        
-      
     </div>
     
 
