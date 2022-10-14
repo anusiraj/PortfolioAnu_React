@@ -1,12 +1,18 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Popover } from 'reactstrap';
+
 
 const ContactForm = () => {
   const form = useRef();
+  function reset(){
+    document.getElementById('name').value='';
+    document.getElementById('email').value='';
+    document.getElementById('message').value='';
+    }
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
 
     emailjs.sendForm('service_i9vwfbe', 
                      'template_uvqhkaj',
@@ -15,26 +21,26 @@ const ContactForm = () => {
           console.log(result.text);
           console.log("message sent");
           alert("Message sent successfully")
-          
-         
+          reset();
 
       }, (error) => {
           console.log(error.text);
+          alert("Message sent failed")
       });
   }
   return (
-    <div className='container'>
+    <div className='container' style={{marginBottom: 100}}>
       <section id="contact">
 
-      <h1>Contact Me</h1></section>
-      <div className='row row-content'>
+      <h1 style={{marginBottom: 30}}>Contact Me</h1></section>
+      <div className='row'>
         <div className="col-12 col-sm-6 offset-sm-1">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="row ">
                     <label className="form-label" htmlFor="name">
                       Name
                     </label>
-                    <input className="form-control" type="text" id="name" name="user_name" required />
+                    <input className="form-control" type="text" id="name" name="user_name" required  />
                 </div>
                 <div className="row">
                     <label className="form-label" htmlFor="email">  

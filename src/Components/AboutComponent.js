@@ -15,10 +15,10 @@ const images = [
 const About = () => {
     return(
         
-                <div class = 'container' id="#about" >
+                <div class = 'container' style={{marginBottom: 100, marginTop:40}} >
                     <section id="about">
-                    <h1>About me</h1> </section>
-                    <div className='aboutcontent' style={{dispaly: 'flex', textAlign: 'left'}}>    
+                    <h1 style={{marginBottom: 30}} >About me</h1> </section>
+                    <div className='aboutcontent' style={{dispaly: 'flex', textAlign: 'left', marginBottom: 50, marginTop:20}}>    
                         <p>My name is Anu Siraj. I am a Software Developer. I have Bachelors degree in Electronics and Communication Engineering. 
                             I am always curious to learn new technologies. I have ability to work as part of a team to develop solutions and 
                             I am self-motivated with go-getter attitude. 

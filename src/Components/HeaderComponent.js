@@ -7,7 +7,10 @@ const Header = () => {
     const [toggle,  setToggle] = useState(false)
     return(
     <>
+    <section id="header">
+                </section>
     <Navbar dark expand="md">
+    
         <div className= "container">
             {/* <div className='itemnav'> */}
             <NavbarToggler onClick  = {() => setToggle(!toggle)} />

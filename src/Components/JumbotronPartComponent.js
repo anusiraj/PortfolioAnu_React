@@ -26,7 +26,7 @@ const JumbotronPart = () => {
                  </div>
                 </div>
                 <div className="col-12 col-sm-6">
-                <img className='heroimage' src="/assets/anu5.jpeg" alt="Anu" />
+                <img className='heroimage' src="/assets/anu5.jpeg" alt="Anu" style = {{paddingRight:'100px'}}/>
                 </div>
             </div>
         </div>

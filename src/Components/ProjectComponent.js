@@ -1,14 +1,14 @@
 import React from 'react';
-import { Card, CardBody, CardTitle, CardImg, CardImgOverlay, CardHeader, Button} from 'reactstrap';
+import { Card, CardBody, CardImg, CardHeader, Button} from 'reactstrap';
 
 const Project = () => {
     return(
-        <div className='container'>
+        <div className='container' style={{marginBottom: 100}}>
             <section id="projects">
-                <h1>Projects</h1></section>
+                <h1 style={{marginBottom: 30}}>Projects</h1></section>
             <p>Here are some of my latest and previous projects.<br />
                 Click on the images to make them bigger</p>
-            <div className='row' style={{marginBottom: 30}}>
+            <div className='row' style={{marginBottom: 30, marginTop:50}}>
                 <div className='col-sm'>
                         <Card>
                             <CardImg width="100%" src= 'assets/cakelicious.jpeg' alt='html' />
