@@ -36,17 +36,20 @@ const About = () => {
                                     </ul>
                     </div> 
                     <div className='slider'>
-                        <h4>My Certficates</h4>
+                        <h4 style={{ marginTop: '30px' }}>My Certficates</h4>
+                        {/* <div className = "col-12 col-sm-6"> */}
                         <SimpleImageSlider
                         style={{ margin: '0 auto', marginTop: '20px', marginBottom: '50px' }}
-                            width='100%'
-                            height={400}
+                            width={400}
+                            height={300}
                             images={images}
                             showBullets={true}
                             showNavs={true}
                             autoPlay={true}
                         />
-                    </div>  
+                        {/* </div> */}
+                    </div>
+                    
 
                 </div>
 
