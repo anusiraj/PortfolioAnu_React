@@ -39,8 +39,8 @@ const About = () => {
                         <h4>My Certficates</h4>
                         <SimpleImageSlider
                         style={{ margin: '0 auto', marginTop: '20px', marginBottom: '50px' }}
-                            width="100%"
-                            height="100%"
+                            width='100%'
+                            height={400}
                             images={images}
                             showBullets={true}
                             showNavs={true}
