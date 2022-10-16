@@ -1,14 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
 const ContactForm = () => {
   const form = useRef();
-  function reset(){
-    document.getElementById('name').value='';
-    document.getElementById('email').value='';
-    document.getElementById('message').value='';
-    }
+  const [fullname, setfullname] = useState('');
+  const [email, setemail] = useState('');
+  const [message, setmessage] = useState('');
+
+
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,7 +21,10 @@ const ContactForm = () => {
           console.log(result.text);
           console.log("message sent");
           alert("Message sent successfully")
-          reset();
+          setfullname('');
+          setemail('');
+          setmessage('');
+       
 
       }, (error) => {
           console.log(error.text);
@@ -39,19 +43,22 @@ const ContactForm = () => {
                     <label className="form-label" htmlFor="name">
                       Name
                     </label>
-                    <input className="form-control" type="text" id="name" name="user_name" required  />
+                    <input className="form-control" type="text" value = {fullname} 
+                    id="name" name="user_name" required onChange={event => setfullname(event.target.value)}  />
                 </div>
                 <div className="row">
                     <label className="form-label" htmlFor="email">  
                       Email
                     </label>
-                    <input className="form-control" type="email" id="email" name="user_email" required />
+                    <input className="form-control" type="email" value = {email}
+                     id="email" name="user_email" required onChange={event => setemail(event.target.value)} />
                 </div>
                 <div className="row">
                     <label className="form-label" htmlFor="message">
                       Message
                     </label>
-                    <textarea className="form-control" id="message" name="message" required />
+                    <textarea className="form-control" id="message" value = {message}
+                     name="message" required onChange={event => setmessage(event.target.value)} />
                 </div>
                 <div className='row' style = {{marginTop: '10px',marginBottom: '10px'}}>
                 <button className="btn btn-danger" type="submit" value="Send">Send
