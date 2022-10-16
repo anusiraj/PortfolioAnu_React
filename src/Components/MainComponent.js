@@ -9,7 +9,6 @@ import ContactForm from './ContactFormComponent';
 
 
 
-
 const Main = () => {
     return(
         <div>

@@ -23,16 +23,17 @@ const About = () => {
                             I am always curious to learn new technologies. I have ability to work as part of a team to develop solutions and 
                             I am self-motivated with go-getter attitude. 
                             I also have experience in learning and excelling at new technologies as needed.</p>
+                            <p>Key strengths I possess - </p>
 
                                     <ul>
-                                        <li>6 month's of industrial experience in HTML, CSS, Java, JavaScript(fom India).</li>
+                                        <li>Worked in a private firm(Safe Care Technology, India) as a Java developer in the year 2018.</li>
                                         <li>5 month's of work-trial experience in Wix & Wordpress using Page builder Elementor, 
-                                            Brizy, Astra and 3 months of experience in WooCommerce(form Finland).</li>
+                                            Brizy, Astra and 3 months of experience in WooCommerce(from Finland).</li>
                                         <li>Participated in Catalyst program-Python for Data Analysis including topics such as Python Fundamentals, 
                                             Python Libraries for Data Analysis, Data Visualization, SQL.</li>
                                         <li>Trained and received Core Java Certification.</li>    
-                                        <li>Trained and received PHP and MY-SQL Server(CodeIgniter) Certification.</li>
-                                        <li>Trained and received Front-End Web Development with React Certification.</li>
+                                        <li>Trained and received PHP and MY-SQL Server(CodeIgniter) Certification and developed a website for the same.</li>
+                                        <li>Trained and received Front-End Web Development with React Certification and developed a web application for the same.</li>
                                     </ul>
                     </div> 
                     <div className='slider'>

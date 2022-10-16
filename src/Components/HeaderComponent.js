@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav, Collapse, NavItem, NavbarToggler} from "reactstrap";
 import { Link } from 'react-scroll';
 
@@ -14,7 +14,7 @@ const Header = () => {
         <div className= "container">
             <NavbarToggler onClick  = {() => setToggle(!toggle)} 
             style={{position:'relative',left: '85%'}} />
-                <Collapse isOpen={toggle} navbar>
+                <Collapse isOpen={toggle} navbar  >
                         <Nav navbar>
                             
                             <NavItem >
