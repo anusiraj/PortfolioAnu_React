@@ -77,7 +77,7 @@ const Project = () => {
                             </CardHeader>
                             <CardBody>
                                 <p>Score Board is single page website developed using Reactjs. It is like a Score Board for games. 
-                                    It sorts player's according to their score. We can select player's 
+                                    ScoreBoard sorts player's according to their score. We can select player's 
                                     name from the dropdown below and can give the latest score. Then the scoreboard displays player's 
                                     name and their score in the sorting order</p>
                             </CardBody>

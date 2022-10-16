@@ -27,8 +27,7 @@ const About = () => {
 
                                     <ul>
                                         <li>Worked in a private firm(Safe Care Technology, India) as a Java developer in the year 2018.</li>
-                                        <li>5 month's of work-trial experience in Wix & Wordpress using Page builder Elementor, 
-                                            Brizy, Astra and 3 months of experience in WooCommerce(from Finland).</li>
+                                        <li>5 month's of work-trial experience in Wix & Wordpress and 3 months of experience in WooCommerce(from Finland).</li>
                                         <li>Participated in Catalyst program-Python for Data Analysis including topics such as Python Fundamentals, 
                                             Python Libraries for Data Analysis, Data Visualization, SQL.</li>
                                         <li>Trained and received Core Java Certification.</li>    
