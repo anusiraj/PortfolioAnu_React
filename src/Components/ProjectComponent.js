@@ -41,10 +41,10 @@ const Project = () => {
                                     <h5>Cakelicious</h5>
                                 </div>
                                 <div className="col-12 col-md-5 m-1">
-                                    <Button className = "button" href = "#project" type="submit" style = {{marginRight: '10px'}}>
+                                    <Button className = "button" href = "https://cakelicious-reactapp.netlify.app/" type="submit" style = {{marginRight: '10px'}}>
                                         Live
                                     </Button>
-                                    <a className="btn btn-social-icon btn-github" href="https://github.com/anusiraj?tab=repositories"><i className="fa fa-github"></i></a>
+                                    <a className="btn btn-social-icon btn-github" href="https://github.com/anusiraj/Cakelicious_ReactApp"><i className="fa fa-github"></i></a>
                                 </div>
                                     
                             </div>
@@ -67,10 +67,10 @@ const Project = () => {
                                     <h5>Scoreboard</h5>
                                 </div>
                                 <div className="col-12 col-md-5 m-1">
-                                    <Button className = "button" href = "#project" type="submit" style = {{marginRight: '10px'}}>
+                                    <Button className = "button" href = "https://score-boardreactapp.netlify.app/" type="submit" style = {{marginRight: '10px'}}>
                                         Live
                                     </Button>
-                                    <a className="btn btn-social-icon btn-github" href="https://github.com/anusiraj?tab=repositories">
+                                    <a className="btn btn-social-icon btn-github" href="https://github.com/anusiraj/ScoreBoard_Reactjs">
                                         <i className="fa fa-github"></i></a>
                                 </div>
                                 </div>
