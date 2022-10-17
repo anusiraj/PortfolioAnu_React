@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './HeaderComponent';
 import JumbotronPart from './JumbotronPartComponent';
 import Footer from './FooterComponent';

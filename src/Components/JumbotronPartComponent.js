@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import { Jumbotron, Button} from "reactstrap";
 import { Link } from 'react-scroll';
 

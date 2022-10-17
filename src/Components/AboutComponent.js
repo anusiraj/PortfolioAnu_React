@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
@@ -15,7 +15,7 @@ const images = [
 const About = () => {
     return(
         
-                <div class = 'container' style={{marginBottom: 100, marginTop:40}} >
+                <div className = 'container' style={{marginBottom: 100, marginTop:40}} >
                     <section id="about">
                     <h1 style={{marginBottom: 30}} >About me</h1> </section>
                     <div className='aboutcontent' style={{dispaly: 'flex', textAlign: 'left', marginBottom: 50, marginTop:20}}>    

@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Card, CardBody, CardImg, CardHeader, Button, Modal, ModalFooter,
-    ModalHeader, ModalBody} from 'reactstrap';
+import React from 'react';
+import { Card, CardBody, CardImg, CardHeader, Button } from 'reactstrap';
 
 const Project = () => {
 
