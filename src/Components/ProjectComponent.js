@@ -25,7 +25,7 @@ const Project = () => {
                             </CardHeader>
                             <CardBody>
                                 <p>Duuni 2021 is a reservation website developed using Wix. 
-                                    I have developed Duuni2021 website for a client when I had been in work trial. 
+                                    I have developed Duuni2021 website for a client when I had been in work trial in Deal Room Events Oy. 
                                     People can register and reserve their space for the programe 'Duuni2021'. 
                                     Since they have deleted the website after the programe, live link is not available.</p>
                             </CardBody>
@@ -50,8 +50,8 @@ const Project = () => {
                             </CardHeader>
                             <CardBody>
                                 <p>Cakelicious is a web application developed using Reactjs,Redux with the help of local json-server. 
-                                Cakelicious is about ordering and delivering cakes(e-commerce). 
-                                This is my ongoing project. Since I am using local json-server as REST API,
+                                Cakelicious is about ordering and delivering cakes. 
+                                This is my ongoing hobby project. Since I am using local json-server as REST API,
                                 the contents will not be available in the live link. It is exactly the same like as the screenshot.</p>
                             </CardBody>
                         </Card>
@@ -78,7 +78,7 @@ const Project = () => {
                                 <p>Score Board is single page website developed using Reactjs. It is like a Score Board for games. 
                                     ScoreBoard sorts player's according to their score. We can select player's 
                                     name from the dropdown below and can give the latest score. Then the scoreboard displays player's 
-                                    name and their score in the sorting order</p>
+                                    name and their score in the sorting order.</p>
                             </CardBody>
                         </Card>
                     </div>
